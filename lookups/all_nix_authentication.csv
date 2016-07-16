@@ -19,6 +19,9 @@ app,vendor_action,action
 ,"session opened",success
 ,ksucceeded,success
 ,"user NOT in sudoers",failure
+,"command not allowed",failure
+,"user NOT authorized on host",failure
+,"BAD SU",failure
 su,,success
 su-l,,success
 sudo,,success
